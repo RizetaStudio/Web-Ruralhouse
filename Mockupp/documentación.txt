@@ -1,0 +1,7 @@
+Color web
+background: #7b4d1e
+buttons color: #fad000
+color <p>: #555555
+color <heads>: #333333
+color footer: #333333
+color logo: #eed3aa
