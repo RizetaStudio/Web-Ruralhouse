@@ -10,7 +10,7 @@
 </head>
 <body>
     <!--MENU INICIO-->
-    <section id="logo">
+    <div id="logo">
         <nav class="menuinicio">
             <ul>
                 <li class="menu"><a class="menuenlace" href="#la_casa">La Casa</a></li>
@@ -28,14 +28,14 @@
                 <li class="menu"><a class="menuenlace" href="#contacto">Contacto</a></li>
             </ul>
         </nav>
-    </section>      
+    </div>      
 <!-- SECCIÓN INFO CASA -->
-    <section id="inicio_casa">
+    <div id="inicio_casa">
         <div class="imagen-casa">
             <img src="./photos/casa_exterior.jpg" alt="Casa por el exterior">
         </div>
         <section id="la_casa">
-            <h1>Cal Pujol by Rural House</h1>
+            <h2>Cal Pujol by Rural House</h2>
             <ul class="info_casa">
                 <li><img src="./photos/personas.png" alt="personas">6 Personas</li>
                 <li><img src="./photos/cama.png" alt="camas">4 Camas</li>
@@ -48,7 +48,21 @@
                 Con un espacioso jardín y zona de barbacoa, ofrece dos habitaciones dobles, cocina equipada, 
                 comedor con sofá cama y baño. Con tu reserva te obsequiaremos con el Pack esencial y si traes a tu mascota, 
                 también tendrá un obsequio de bienvenida.</p>
-    </section>
+        </section>
+    </div>
+
+<!--Sección video presentacion-->
+    <div id="video-tour">
+        <div class="video-container">
+            <iframe 
+                src="https://www.youtube.com/embed/qiVBjKbC9hw" 
+                title="YouTube video player" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+
 <!--Seccion Tarjetas Especificaciones-->
     <section id="seccion_especificaciones">
             <h2>Nuestros servicios</h2>
@@ -122,7 +136,7 @@
         <h2>Comprueba la disponibilidad de nuestra casa</h2>
         <p>A través de este calendario podrás comprobar qué días hay disponibles para reservar la casa</p>
     </div>
-    <section class="seccion-calendario">
+    <div class="seccion-calendario">
         <div class="contenedor">
             <div class="contenedor-calendario">
                 <header>
@@ -190,7 +204,7 @@
                 </table>
             </div>
         </div>
-    </section>
+    </div>
     <footer id="contacto">
         <h2>¿Quieres más información?</h2>
         <p>Contáctanos a través del formulario y estaremos encantados de atenderte. Si lo prefieres, haz clic en el icono de WhatsApp para hablar con nosotros directamente.</p>
@@ -222,5 +236,5 @@
             </div>
         </form>
     </footer>
-        </body>
+</body>
 </html>
