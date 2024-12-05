@@ -154,6 +154,31 @@ h2{
     margin-top: 0;
     font-size: 27px;
 }
+/* Contenedor video */
+#video-tour {
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    box-sizing: border-box;
+}
+.video-container {
+    width: 100%;
+    max-width: 566px; 
+    aspect-ratio: 16 / 9;
+    position: relative;
+}
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border: none; 
+}
 
 /* Contenedor de las tarjetas */
 #especicicaciones {
@@ -374,7 +399,6 @@ form{
     flex-direction: column;
     align-items: center;
     gap: 15px;
-    margin-top: 20x;
     width: 100%;
 }
 
